@@ -1,25 +1,23 @@
 # JapaneseCalendarYear
 
-[![Version](https://img.shields.io/cocoapods/v/JapaneseCalendarYear.svg?style=flat)](http://cocoadocs.org/docsets/JapaneseCalendarYear)
-[![License](https://img.shields.io/cocoapods/l/JapaneseCalendarYear.svg?style=flat)](http://cocoadocs.org/docsets/JapaneseCalendarYear)
-[![Platform](https://img.shields.io/cocoapods/p/JapaneseCalendarYear.svg?style=flat)](http://cocoadocs.org/docsets/JapaneseCalendarYear)
+## Installation
+
+### CocoaPods
+```
+pod 'JapaneseCalendarYear', :git => 'https://github.com/hypermkt/JapaneseCalendarYear.git'
+```
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+```
+JapaneseCalendarYear *jpCal = [[JapaneseCalendarYear alloc] init];
+NSLog(@"%@", [jpCal toJapaneseCalendarYear:1981]); // => 昭和56年
 
-## Requirements
-
-## Installation
-
-JapaneseCalendarYear is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "JapaneseCalendarYear"
+```
 
 ## Author
 
-Makoto Chiba, hypermkt@gmail.com
+hypermkt
 
 ## License
 
